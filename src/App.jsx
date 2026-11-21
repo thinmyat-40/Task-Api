@@ -56,7 +56,7 @@ const App = () => {
   return (
     <>
       <div>
-        <h1>Task API CRUD</h1>
+        <h1>Task API Project</h1>
       </div>
       <div className="flex gap-2">
         <form onSubmit={handleSubmit} method="post">
