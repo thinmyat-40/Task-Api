@@ -43,9 +43,9 @@ const App = () => {
     setName("");
     gettask();
   };
-  const handleEdit = (item) => {
-    setName(item.name);
-    setEditingId(item.id);
+  const handleEdit = (items) => {
+    setName(items.name);
+    setEditingId(items.id);
   };
   const handleDelete = async (id) => {
     await fetch(`http://localhost:8000/api/task/${id}`, {
